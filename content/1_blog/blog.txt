@@ -1,0 +1,29 @@
+Title: Blog
+
+----
+
+Heading: Knowledge base
+
+----
+
+Subheading: Welcome!
+
+----
+
+Limit: 6
+
+----
+
+Dateformat: Y-m-d
+
+----
+
+Twitter: 
+
+----
+
+Instagram: 
+
+----
+
+Description: Just like Medium, but better
