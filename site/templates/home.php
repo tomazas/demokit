@@ -2,10 +2,10 @@
 
 <header class="h1">
   <h1><?= $page->heading()->html() ?></h1>
-  <p><small>This demo expires <?= $site->demoExpiryHuman() ?></small></p>
+  <!--p><small>This demo expires <?= $site->demoExpiryHuman() ?></small></p-->
 </header>
 
-<section class="section">
+<!--section class="section">
   <div class="grid">
     <div class="column panel box" style="--columns: 6">
       <div class="text margin-l">
@@ -19,10 +19,10 @@
       <?= $page->aboutText()->kt() ?>
     </div>
   </div>
-</section>
+</section-->
 
 <section class="section">
-  <h2 class="h2">Examples</h2>
+  <h2 class="h2">Site</h2>
   <ul class="grid examples">
     <?php foreach ($site->children()->listed() as $example): ?>
     <li class="column" style="--columns: 4">

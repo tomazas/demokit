@@ -55,7 +55,7 @@ tabs:
             type: text
             width: 1/2
             icon: calendar
-            placeholder: d M, Y
+            placeholder: Y-m-d
           twitter:
             label: Twitter name
             type: text

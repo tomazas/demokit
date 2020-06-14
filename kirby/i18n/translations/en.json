@@ -296,7 +296,7 @@
     "You received your license code after the purchase via email. Please copy and paste it to register.",
   "license.register.label": "Please enter your license code",
   "license.register.success": "Thank you for supporting Kirby",
-  "license.unregistered": "This is an unregistered demo of Kirby",
+  "license.unregistered": "",
 
   "link": "Link",
   "link.text": "Link text",

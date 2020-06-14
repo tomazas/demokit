@@ -2,14 +2,15 @@
 
 return [
   'debug' => false,
+  'home' => 'blog',
   'panel' => [
     'css' => 'assets/css/panel.css'
   ],
   'kirby' => [
     'blog' => [
-      'date' => 'd M, Y',
+      'date' => 'Y-m-d',
       'pagination' => [
-        'limit' => 6
+        'limit' => 30
       ]
     ]
   ],

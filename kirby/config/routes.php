@@ -117,7 +117,7 @@ return function ($kirby) {
             'method'  => 'ALL',
             'env'     => 'site',
             'action'  => function () use ($kirby) {
-                return $kirby->resolve();
+                return $kirby->resolve('/blog'); // overrides / -> /blog
             }
         ];
 
@@ -127,9 +127,7 @@ return function ($kirby) {
             'method'  => 'ALL',
             'env'     => 'site',
             'action'  => function () use ($kirby) {
-                return $kirby
-                    ->response()
-                    ->redirect($kirby->site()->url());
+                return $kirby->resolve('/blog'); // overrides /home -> /blog
             }
         ];
 

@@ -1,8 +1,6 @@
-# Kirby Demokit
-
-This demo site is used for the Kirby demo at <https://trykirby.com>.
-
+Mini Knowledge base based on Kirby CMS.
+For personal use only!
 ## Copyright
 
-Â© 2009-2020 Bastian Allgeier (Bastian Allgeier GmbH)
+© 2009-2020 Bastian Allgeier (Bastian Allgeier GmbH)
 <https://getkirby.com>

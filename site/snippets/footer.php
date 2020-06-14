@@ -1,4 +1,4 @@
-  <footer class="footer">
+  <!--footer class="footer">
     <div class="grid">
       <div class="column" style="--columns: 6">
         <h2><a href="https://getkirby.com">Made with Kirby</a></h2>
@@ -40,7 +40,7 @@
         </ul>
       </div>
     </div>
-  </footer>
+  </footer-->
 
   <?= js('assets/lightbox/lightbox.js') ?>
   <script>

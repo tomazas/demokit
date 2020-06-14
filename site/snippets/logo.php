@@ -7,13 +7,13 @@
   <nav class="logo-dropdown-box">
     <header>
       <a href="<?= $site->url() ?>"><?= $site->title()->html() ?></a>
-      <form class="killer-form" id="killer" method="POST" action="<?= url('delete-demo') ?>">
+      <!--form class="killer-form" id="killer" method="POST" action="<?= url('delete-demo') ?>">
         <button class="killer-button"><?= svg('assets/icons/trash.svg') ?></button>
-      </form>
+      </form-->
     </header>
     <div class="logo-dropdown-box-content">
-      <div>
-        <h2>Examples</h2>
+      <!--div>
+        <h2>Site</h2>
         <ul>
           <?php foreach ($site->children()->listed() as $section): ?>
           <li>
@@ -21,7 +21,7 @@
           </li>
           <?php endforeach ?>
         </ul>
-      </div>
+      </div-->
       <div>
         <h2>Panel</h2>
 
@@ -30,28 +30,28 @@
           <li><a href="<?= $page->panelUrl() ?>">Edit this page</a></li>
         </ul>
         <?php else: ?>
-        <p class="logo-dropdown-box-login">
-          <small>Email:</small> demo@getkirby.com<br>
+        <!--p class="logo-dropdown-box-login">
+          <small>Email:</small> demo@test.com<br>
           <small>Password:</small> demodemo
-        </p>
+        </p-->
         <ul>
           <li><a href="<?= url('panel') ?>">Login</a></li>
         </ul>
         <?php endif ?>
 
-        <h2>Kirby</h2>
+        <!--h2>Kirby</h2>
         <ul>
           <li><a target="_blank" href="https://getkirby.com">Website</a></li>
           <li><a target="_blank" href="https://getkirby.com/docs">Docs</a></li>
           <li><a target="_blank" href="https://forum.getkirby.com">Forum</a></li>
           <li><a target="_blank" href="https://github.com/getkirby">GitHub</a></li>
-        </ul>
+        </ul-->
       </div>
     </div>
-    <footer>
+    <!--footer>
       This demo expires <?= $site->demoExpiryHuman() ?> (based on your activity),
       latest <span class="absolute-time" data-timestamp="<?= $site->demoExpiry(true) ?>"><?= $site->demoExpiryHuman(true) ?></span>.
-    </footer>
+    </footer-->
   </nav>
 </details>
 <?php endif ?>
